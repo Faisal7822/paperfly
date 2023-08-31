@@ -1,0 +1,44 @@
+@media only screen and (max-width: 601px) {
+    .hero a{
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .hero-img img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .hero-img{
+        margin-top: 0 !important;
+        align-items: center;
+    }
+    .logistic-service img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .select-btn{
+        flex-direction: column !important;
+        flex-basis: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fidback-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .fidback-img{
+        display: inline-block;
+        text-align: left;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
+    
+  }
